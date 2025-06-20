@@ -1,10 +1,16 @@
 using UnityEngine;
 
-public class Train : MonoBehaviour
+public class TrainMovement : MonoBehaviour
 {
+    [Header("Atributes")]
     [SerializeField] float acceleration = 0;
+    [SerializeField] float peak = 2;
+
+    [Header("Refs")]
     [SerializeField] Accelerator accelerator; 
-    float peak = 3;
+
+    [Header("State")]
+    public bool stopped;
 
     void Start()
     {
@@ -15,6 +21,7 @@ public class Train : MonoBehaviour
     {
         Accelerate();
         Move();
+        MovingState();
     }
 
     void Move()
@@ -41,6 +48,18 @@ public class Train : MonoBehaviour
             {
                 acceleration = 0;
             }
+        }
+    }
+
+    void MovingState()
+    {
+        if(acceleration > 0)
+        {
+            stopped = false;
+        }
+        else
+        {
+            stopped = true;
         }
     }
 }
