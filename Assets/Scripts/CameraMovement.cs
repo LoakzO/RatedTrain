@@ -2,8 +2,11 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    [SerializeField]float speed = 7;
-    [SerializeField]GameObject train;
+    [Header("Atributes")]
+    [SerializeField] float speed = 7;
+
+    [Header("Refs")]
+    [SerializeField] GameObject train;
 
     void Start()
     {

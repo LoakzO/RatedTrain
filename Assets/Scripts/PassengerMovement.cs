@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class PassengerMovement : MonoBehaviour
 {
+    [Header("Atributes")]
     [SerializeField] float speed;
 
+    [Header("State")]
     public bool ready;
 
     void Start()

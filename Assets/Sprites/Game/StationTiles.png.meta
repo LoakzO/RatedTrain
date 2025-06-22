@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 33b5d88e0df1b0f478ae578f46e7ac2c
+guid: 9f4756c8786253a43b26bbca432eb10c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7828601651832411178
-    second: AcceleratorFill_0
+      213: 1901655253993179875
+    second: StationTiles_0
+  - first:
+      213: -5829612888246218395
+    second: StationTiles_1
+  - first:
+      213: 5775126518359503341
+    second: StationTiles_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -74,7 +80,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -126,23 +132,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AcceleratorFill_0
+      name: StationTiles_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 11
-        width: 26
-        height: 26
+        x: 0
+        y: 0
+        width: 24
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a24d18189b7c4ac60800000000000000
-      internalID: 7828601651832411178
+      spriteID: 3eac48bc069046a10800000000000000
+      internalID: 1901655253993179875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StationTiles_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5619b0af6fd091fa0800000000000000
+      internalID: -5829612888246218395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StationTiles_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1b1c378fe552050800000000000000
+      internalID: 5775126518359503341
       vertices: []
       indices: 
       edges: []
@@ -151,7 +201,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 8e2ccc6f2c270e2468dd2c48980e1824
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AcceleratorFill_0: 7828601651832411178
+      StationTiles_0: 1901655253993179875
+      StationTiles_1: -5829612888246218395
+      StationTiles_2: 5775126518359503341
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

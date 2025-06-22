@@ -4,9 +4,15 @@ using UnityEngine.EventSystems;
 
 public class Accelerator : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
-    public bool pressing;
+
+    [Header("Atributes")]
     public float speed;
+
+    [Header("Refs")]
     [SerializeField] Image imgFill;
+
+    [Header("State")]
+    public bool pressing;
 
     void Start()
     {

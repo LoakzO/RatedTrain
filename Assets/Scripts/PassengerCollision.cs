@@ -2,11 +2,14 @@ using UnityEngine;
 
 public class PassengerCollision : MonoBehaviour
 {
+    [Header("Refs")]
     PassengerMovement objMovement;
+    SatisbarFill barFill;
 
     void Start()
     {
         objMovement = GetComponent<PassengerMovement>();
+        barFill = GameObject.Find("Satisbar").GetComponent<SatisbarFill>();
     }
 
     void Update()
@@ -33,6 +36,7 @@ public class PassengerCollision : MonoBehaviour
     {
         if(collision.gameObject.tag == "Train")
         {
+            barFill.Fill(0.1f);
             Destroy(gameObject);
         }
     }
