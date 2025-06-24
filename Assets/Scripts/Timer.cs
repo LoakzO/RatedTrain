@@ -3,8 +3,10 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
-    [SerializeField] float time;
+    public float time;
     Text timerText;
+
+    bool going;
 
     void Start()
     {
@@ -24,14 +26,19 @@ public class Timer : MonoBehaviour
 
     void CountDown()
     {
-        if(time > 0)
+        if(time > 0 && going)
         {
             time -= Time.deltaTime;
         }
     }
 
-    public void AddTime(float valor)
+    public void AddTime(float amount)
     {
-        time += valor;
+        time += amount;
+    }
+
+    public void SetGoing(bool value)
+    {
+        going = value;
     }
 }

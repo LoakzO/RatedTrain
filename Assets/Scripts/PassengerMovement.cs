@@ -10,7 +10,7 @@ public class PassengerMovement : MonoBehaviour
 
     void Start()
     {
-        
+        SetSpeed();
     }
 
     void Update()
@@ -24,5 +24,10 @@ public class PassengerMovement : MonoBehaviour
         {
             transform.Translate(Vector2.up * speed * Time.deltaTime);
         }
+    }
+
+    void SetSpeed()
+    {
+        speed = Random.Range(0.1f, 1);
     }
 }
