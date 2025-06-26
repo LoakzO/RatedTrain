@@ -5,8 +5,8 @@ public class TrainBehavior : MonoBehaviour
 {
     [Header("Atributes")]
     public int capacity;
+    public int numPassengers = 0;   //improve
 
-    int numPassengers = 0;
     int passengersChecker;
 
     [Header("Refs")]
@@ -36,7 +36,7 @@ public class TrainBehavior : MonoBehaviour
     {
         if(trainMovement.stopped && !atStation)
         {
-            satisbar.Deflate(0.001f);
+            satisbar.Deflate(0.1f);
         }
     }
 
@@ -44,7 +44,7 @@ public class TrainBehavior : MonoBehaviour
     {
         if(numPassengers > capacity)
         {
-            satisbar.Deflate(0.001f);
+            satisbar.Deflate(0.1f);
         }
     }
 
@@ -52,7 +52,7 @@ public class TrainBehavior : MonoBehaviour
     {
         if(timer.time <= 0)
         {
-            satisbar.Deflate(0.001f);
+            satisbar.Deflate(0.1f);
         }
     }
 

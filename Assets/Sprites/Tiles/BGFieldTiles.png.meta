@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 8c7fa593b763293418922acb4b4882da
+guid: 660a7363e9f87ee43ba73b7e628d4941
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3647820670040159581
-    second: PauseBTN 1_0
+      213: 2993041009614523515
+    second: BGFieldTiles_0
+  - first:
+      213: -3240006540554178564
+    second: BGFieldTiles_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +49,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PauseBTN 1_0
+      name: BGFieldTiles_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 14
-        height: 14
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +144,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3aacde57d66506dc0800000000000000
-      internalID: -3647820670040159581
+      spriteID: b7c0040c0fa698920800000000000000
+      internalID: 2993041009614523515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFieldTiles_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff6358b73f2903d0800000000000000
+      internalID: -3240006540554178564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFieldTiles_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf843be9ee0ed6448b001422b10b5c7
+      internalID: 204048824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFieldTiles_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcfb7e7f7e199d47b6a13067521c8f4
+      internalID: -2099576156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFieldTiles_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf039d98aa6c344293fc9a7eedc4e6c
+      internalID: 310802205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFieldTiles_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fb4cf008745a643adb83bd8997237c
+      internalID: 207130104
       vertices: []
       indices: 
       edges: []
@@ -151,7 +264,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 87730c98bcd6ff34da925c0e273d94e0
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +274,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PauseBTN 1_0: -3647820670040159581
+      BGFieldTiles_0: 2993041009614523515
+      BGFieldTiles_1: -3240006540554178564
+      BGFieldTiles_2: 204048824
+      BGFieldTiles_3: -2099576156
+      BGFieldTiles_4: 310802205
+      BGFieldTiles_5: 207130104
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

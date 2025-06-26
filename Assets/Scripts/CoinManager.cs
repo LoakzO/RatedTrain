@@ -20,6 +20,12 @@ public class CoinManager : MonoBehaviour
         SaveCoins();
     }
 
+    public void RemoveCoins(int amount)
+    {
+        coins -= amount;
+        SaveCoins();
+    }
+
     void SaveCoins()
     {
         PlayerPrefs.SetInt("Coins", coins);
@@ -38,5 +44,10 @@ public class CoinManager : MonoBehaviour
             coins = 0;
             SaveCoins();
         }
+    }
+
+    public int GetCoins()
+    {
+        return coins;
     }
 }

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4ccce27cebf63c048a0c64b00b26e7a3
+guid: 08f091589e240644a97533cd9b97129a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1954255282214566983
-    second: PressedPauseBTN_0
+      213: -9201784427541836977
+    second: PressedMenuBTN_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 48
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PressedPauseBTN_0
+      name: PressedMenuBTN_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 7
-        width: 36
-        height: 35
+        x: 0
+        y: 0
+        width: 26
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74c74d833d8ee1b10800000000000000
-      internalID: 1954255282214566983
+      spriteID: f4bc5a8f0d1bc4080800000000000000
+      internalID: -9201784427541836977
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PressedPauseBTN_0: 1954255282214566983
+      PressedMenuBTN_0: -9201784427541836977
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

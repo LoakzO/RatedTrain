@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 8c7fa593b763293418922acb4b4882da
+guid: db8c69253469ca345a46b1d27c5cdd88
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3647820670040159581
-    second: PauseBTN 1_0
+      213: 6084398998627703622
+    second: BGFieldTiles2_0
+  - first:
+      213: 3760234225399144687
+    second: BGFieldTiles2_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -126,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PauseBTN 1_0
+      name: BGFieldTiles2_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 14
-        height: 14
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +144,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3aacde57d66506dc0800000000000000
-      internalID: -3647820670040159581
+      spriteID: 64b52f817a0207450800000000000000
+      internalID: 6084398998627703622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFieldTiles2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0ae2dfa190f2430800000000000000
+      internalID: 3760234225399144687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFieldTiles2_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f82401dd6bd2b4b8b17e8a06519dca
+      internalID: -1967935726
       vertices: []
       indices: 
       edges: []
@@ -151,7 +198,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: b38c4099767fbdf4baf3190c9910f4ce
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +208,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PauseBTN 1_0: -3647820670040159581
+      BGFieldTiles2_0: 6084398998627703622
+      BGFieldTiles2_1: 3760234225399144687
+      BGFieldTiles2_2: -1967935726
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

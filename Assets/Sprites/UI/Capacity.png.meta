@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 5d61e9b495b89724685e89431fc5059e
+guid: 99aff68755570ae468c5689f3f46ed99
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6617563100084466156
-    second: RailOL_0
-  - first:
-      213: -702112471091385055
-    second: RailOL_1
+      213: -903516170810695451
+    second: Capacity_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,35 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RailOL_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 4
-        width: 64
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce17443049e46db50800000000000000
-      internalID: 6617563100084466156
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RailOL_1
+      name: Capacity_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 5
+        width: 12
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12de9307d689146f0800000000000000
-      internalID: -702112471091385055
+      spriteID: 5e0e10664d01673f0800000000000000
+      internalID: -903516170810695451
       vertices: []
       indices: 
       edges: []
@@ -186,8 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RailOL_0: 6617563100084466156
-      RailOL_1: -702112471091385055
+      Capacity_0: -903516170810695451
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

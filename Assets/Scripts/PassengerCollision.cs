@@ -30,13 +30,24 @@ public class PassengerCollision : MonoBehaviour
                 objMovement.ready = false;
             }
         }
+        else if (collision.tag == "Wagon")
+        {
+            if (collision.gameObject.GetComponentInParent<TrainMovement>().stopped)
+            {
+                objMovement.ready = true;
+            }
+            else
+            {
+                objMovement.ready = false;
+            }
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == "Train")
         {
-            barFill.Fill(0.1f);
+            barFill.Fill(0.05f);
             Destroy(gameObject);
         }
     }

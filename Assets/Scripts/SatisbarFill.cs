@@ -26,7 +26,7 @@ public class SatisbarFill : MonoBehaviour
 
     public void Deflate(float amount)
     {
-        imgFill.fillAmount -= amount;
+        imgFill.fillAmount -= amount * Time.deltaTime;
     }
 
     void CheckFill()

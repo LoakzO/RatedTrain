@@ -38,7 +38,10 @@ public class GameSetup : MonoBehaviour
     public void Fail()
     {
         FreezeTime();
-        gameoverPanel.SetActive(true);
+        if(gameoverPanel != null)
+        {
+            gameoverPanel.SetActive(true);
+        }
     }
 
     public void Pause()

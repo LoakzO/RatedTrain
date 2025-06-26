@@ -5,10 +5,11 @@ TagManager:
   serializedVersion: 3
   tags:
   - Train
+  - Wagon
   - Station
   - StartStation
-  - Passenger
   - TerminalStation
+  - Passenger
   layers:
   - Default
   - TransparentFX
