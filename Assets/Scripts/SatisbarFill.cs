@@ -7,16 +7,19 @@ public class SatisbarFill : MonoBehaviour
     [SerializeField] Image imgFill;
     
     GameSetup setup;
+    Animator satisbarAnimator;
 
     void Start()
     {
         setup = GameObject.Find("Setup").GetComponent<GameSetup>();
+        satisbarAnimator = GetComponent<Animator>();
     }
 
     
     void Update()
     {
         CheckFill();
+        AnimateAlarm(false);
     }
 
     public void Fill(float amount)
@@ -27,6 +30,7 @@ public class SatisbarFill : MonoBehaviour
     public void Deflate(float amount)
     {
         imgFill.fillAmount -= amount * Time.deltaTime;
+        AnimateAlarm(true);
     }
 
     void CheckFill()
@@ -40,5 +44,10 @@ public class SatisbarFill : MonoBehaviour
     public float GetFill()
     {
         return imgFill.fillAmount;
+    }
+
+    void AnimateAlarm(bool value)
+    {
+        satisbarAnimator.SetBool("pDeflating", value);
     }
 }

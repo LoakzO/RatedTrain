@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/UpgradeScene.unity
     guid: a470ee4e30377134394d3ace8aa535e0
   - enabled: 1
+    path: Assets/Scenes/MapScene.unity
+    guid: c6a5dbcf223df2f49a7cef97d6e38f66
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects:

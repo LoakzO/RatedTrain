@@ -8,9 +8,12 @@ public class Timer : MonoBehaviour
 
     bool going;
 
+    Animator timerAnimator;
+
     void Start()
     {
         timerText = GetComponent<Text>();
+        timerAnimator = GetComponent<Animator>();
     }
 
     void Update()
@@ -34,6 +37,7 @@ public class Timer : MonoBehaviour
 
     public void AddTime(float amount)
     {
+        timerAnimator.SetTrigger("pSum");
         time += amount;
     }
 
